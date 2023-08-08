@@ -38,3 +38,4 @@ Route::post('/store', [UserController::class, 'store']);
 Route::post('/login/process', [UserController::class, 'process']);
 Route::post('/logout', [UserController::class, 'logout']);
 Route::post('/insertrecord', [EmployeeController::class, 'store']);
+Route::post('/update/show', [EmployeeController::class, 'search']);
